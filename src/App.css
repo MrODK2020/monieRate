@@ -1,0 +1,911 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  font-size: 25px;
+  font-family: rubik;
+}
+.left_img {
+  display: none;
+}
+.d_main_container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.d_header {
+  display: flex;
+  align-content: center;
+  background-color: #4F6587;
+}
+
+.d_header_left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: rubik;
+  color: white;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: 70px;
+}
+
+.header_left_text {
+  width: 350px;
+  font-size: 1.2em;
+  font-weight: 1000;
+}
+.d_header_div, .d_header_right_div  {
+  padding: 10px;
+}
+.d_header_left_button {
+  background-color: white;
+  color: #FF5D00;
+  border: 0px;
+  border-radius: 20px;
+}
+.d_header_left_button:hover {
+  background-color: #FF5D00;
+  color:white;
+  border: 0px;
+}
+
+.d_header_right {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+.d_header_right_img {
+  object-fit: cover;
+  object-position: center;
+}
+.right_img {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -300px;
+  z-index: -1;
+}
+
+
+.d_main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_top {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.inner_main_top_div {
+  width: auto;
+}
+
+.main_top_h4 {
+  text-align: center;
+  text-align-last: center;
+  max-width: 700px;
+  font-weight: 700;
+}
+.currency_icons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FF5D00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.icons {
+  color: white;
+}
+
+
+
+.line {
+  height: 2px;
+  color: 2px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.chart_div {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+/* Chart card*/
+.d_card {
+  padding: 5px;
+  max-height: 600px;
+  height: auto;
+}
+
+.d_card_title {
+  font-size: 1.2em;
+  font-weight: 900;
+  font-family: rubik;
+}
+.show_btn {
+  background-color: #FF5D00;
+  color: white;
+  margin-right: 20px;
+  font-size: .8em;
+}
+
+.show_btn:hover {
+  background-color: white;
+  color: #FF5D00;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn:focus {
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn > h6 {
+  font-size: 1.2em;
+  font-weight: 700;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.prices {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  font-weight: 1000;
+  font-size: 1.2em;
+}
+
+.chartBody {
+  width: 800px;
+}
+.chartInnerBody {
+  width: 800px;
+  overflow-x: scroll;
+}
+
+.chartInnerInnerBody {
+  height: 400px;
+}
+/* Chart card end */
+.footer {
+  max-height: 300px;
+  padding: 100px;
+  background-color: #4F6587;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
+.getting_section {
+  display: flex;
+  align-items: center;
+}
+
+.right_input {
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .d_header_left {
+    padding: 40px;
+  }
+  .header_left_text {
+    width: 350px;
+    font-size: 1.2em;
+    font-weight: 1000;
+  }
+  .right_img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -300px;
+    z-index: -1;
+  }
+
+  .d_card_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .select_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .left_input {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+  
+  .right_input {
+    font-size: 1.2em;
+    margin-right: 20px;
+  }
+  .get {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .get_btn {
+    margin-right: 20px;
+    font-size: 1.2em;
+    background-color: #FF5D00;
+    color: white;
+  }
+  .get_btn:hover {
+    background-color: white;
+    color: #FF5D00
+  }
+
+  .get_btn:focus {
+    border-color: transparent;
+    border: 1px;
+    background-color: white;
+    color: #FF5D00;
+  }
+
+  /* Chart card*/
+.d_card {
+  padding: 5px;
+  max-height: 800px;
+  height: auto;
+}
+
+.d_card_title {
+  font-size: 1em;
+  font-weight: 900;
+  font-family: rubik;
+}
+.show_btn {
+  background-color: #FF5D00;
+  color: white;
+  margin-right: 20px;
+  font-size: .9em;
+}
+
+.show_btn:hover {
+  background-color: white;
+  color: #FF5D00;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn:focus {
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+.show_btn > h6 {
+  font-size: 1.2em;
+  font-weight: 1000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.prices {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  font-weight: 1000;
+  font-size: 1em;
+}
+.chartBody {
+  width: 600px;
+}
+.chartInnerBody {
+  width: 600px;
+  overflow-x: scroll;
+}
+
+.chartInnerInnerBody {
+  height: 400px;
+}
+/* Chart card end */
+}
+
+@media (min-width: 997px) and (max-width: 1199px) {
+  .d_header_left {
+    padding: 35px;
+  }
+  .header_left_text {
+    width: 300px;
+    font-size: 1em;
+    font-weight: 900;
+  }
+  .right_img {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -300px;
+    z-index: -1;
+  }
+
+  .d_card_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .select_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .left_input {
+    font-size: .8em;
+    margin-left: 20px;
+  }
+  
+  .right_input {
+    font-size: .8em;
+    margin-right: 20px;
+  }
+  .get {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .get_btn {
+    margin-right: 20px;
+    font-size: .8em;
+    background-color: #FF5D00;
+    color: white;
+  }
+  .get_btn:hover {
+    background-color: white;
+    color: #FF5D00
+  }
+
+  .get_btn:focus {
+    border-color: transparent;
+    border: 1px;
+    background-color: white;
+    color: #FF5D00;
+  }
+  /* Chart card*/
+  .d_card {
+    padding: 5px;
+    max-height: 800px;
+    height: auto;
+    width: 650px;
+  }
+  
+  .d_card_title {
+    font-size: 1em;
+    font-weight: 900;
+    font-family: rubik;
+  }
+  .show_btn {
+    background-color: #FF5D00;
+    color: white;
+    margin-right: 20px;
+    font-size: .6em;
+  }
+  
+  .show_btn:hover {
+    background-color: white;
+    color: #FF5D00;
+    border-color: 1px solid #FF5D00;
+  }
+  .show_btn:focus {
+    border: 0px;
+    background-color: white;
+    color: black;
+    border-color: transparent;
+  }
+  .show_btn > h6 {
+    font-size: .8em;
+    font-weight: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .prices {
+    margin-right: auto;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .current_price {
+    font-weight: 1000;
+    font-size: .8em;
+  }
+  .chartBody {
+    width: 600px;
+  }
+  .chartInnerBody {
+    width: 600px;
+    overflow-x: scroll;
+  }
+  
+  .chartInnerInnerBody {
+    height: 400px;
+  }
+  /* Chart card end */
+}
+
+@media (min-width: 768px) and (max-width: 996px) {
+  .d_header_left {
+    padding: 30px;
+  }
+  .header_left_text {
+    width: 250px;
+    font-size: .6em;
+    font-weight: 800;
+  }
+  .right_img {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -220px;
+  }
+
+  .d_card_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .select_text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .left_input {
+    font-size: .6em;
+    margin-left: 20px;
+  }
+  
+  .right_input {
+    font-size: .6em;
+    margin-right: 20px;
+  }
+  .get {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .get_btn {
+    margin-right: 20px;
+    font-size: .6em;
+    background-color: #FF5D00;
+    color: white;
+  }
+  .get_btn:hover {
+    background-color: white;
+    color: #FF5D00
+  }
+
+  .get_btn:focus {
+    border-color: #FF5D00;
+    border: 1px;
+    background-color: white;
+    color: #FF5D00;
+  }
+    /* Chart card*/
+.d_card {
+  padding: 5px;
+  max-height: 800px;
+  height: auto;
+  width: 450px;
+}
+
+.d_card_title {
+  font-size: 1em;
+  font-weight: 900;
+  font-family: rubik;
+}
+.show_btn {
+  background-color: #FF5D00;
+  color: white;
+  margin-right: 20px;
+}
+
+.show_btn:hover {
+  background-color: white;
+  color: #FF5D00;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn:focus {
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+.show_btn > h6 {
+  font-size: .6em;
+  font-weight: 1000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.prices {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  font-weight: 1000;
+  font-size: .6em;
+}
+.chartBody {
+  width: 400px;
+}
+.chartInnerBody {
+  width: 400px;
+  overflow-x: scroll;
+}
+
+.chartInnerInnerBody {
+  height: 400px;
+}
+/* Chart card end */
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  .d_main_container {
+    width: 100%;
+  }
+  .d_header_left {
+    padding: 25px;
+  }
+  .header_left_text {
+    width: 200px;
+    font-size: .6em;
+    font-weight: 700;
+  }
+  .left_img {
+    display: none;
+  }
+  .right_img {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -260px;
+    z-index: -1;
+  }
+
+  .main_top {
+    padding: 10px;
+    margin-top: 30px;
+  }
+  
+  .inner_main_top_div {
+    width: auto;
+  }
+  
+  .main_top_h4 {
+    text-align: center;
+    text-align-last: center;
+    max-width: 400px;
+  }
+  .currency_icons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 400px;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FF5D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .getting_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .d_card_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .select_text {
+    margin-top: 20px;
+  }
+  .left_input {
+    font-size: .6em;
+    margin-left: 20px;
+  }
+  
+  .right_input {
+    font-size: .6em;
+    margin-right: 20px;
+  }
+  .get {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .get_btn {
+    margin-right: 20px;
+    font-size: .6em;
+    background-color: #FF5D00;
+    color: white;
+  }
+  .get_btn:hover {
+    background-color: white;
+    color: #FF5D00
+  }
+
+  .get_btn:focus {
+    border-color: transparent;
+    border: 1px;
+    background-color: white;
+    color: #FF5D00;
+  }
+    /* Chart card*/
+.d_card {
+  padding: 5px;
+  max-height: 800px;
+  height: auto;
+  width: 350px;
+}
+
+.d_card_title {
+  font-size: 1em;
+  font-weight: 900;
+  font-family: rubik;
+}
+.show_btn {
+  background-color: #FF5D00;
+  color: white;
+  margin-right: 20px;
+}
+
+.show_btn:hover {
+  background-color: white;
+  color: #FF5D00;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn:focus {
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+.show_btn > h6 {
+  font-size: .6em;
+  font-weight: 1000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.prices {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  font-weight: 1000;
+  font-size: .6em;
+}
+.chartBody {
+  width: 300px;
+}
+.chartInnerBody {
+  width: 300px;
+  overflow-x: scroll;
+}
+
+.chartInnerInnerBody {
+  height: 400px;
+}
+/* Chart card end */
+}
+
+@media (max-width: 413px) { 
+  .d_main_container {
+    width: 100vw;
+  }
+  .d_header {
+    width: 100%;
+  }
+  .d_header_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+  }
+  .d_header_div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .header_left_text {
+    width: 200px;
+    font-size: .6em;
+    font-weight: 700;
+    text-align-last: center;
+  }
+  .right_img, .left_img  {
+    display: none;
+  }
+  .d_header_right {
+    display: none;
+  }
+
+  .main_top {
+    margin-top: 30px;
+    padding: 0px;
+  }
+  
+  .inner_main_top_div {
+    width: auto;
+  }
+  
+  .main_top_h4 {
+    text-align-last: center;
+    max-width: 400px;
+  }
+  .currency_icons {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FF5D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 25px;
+  }
+
+  .getting_section {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .d_card_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .select_text {
+    margin-top: 20px;
+  }
+  .left_input {
+    font-size: .8em;
+    margin-left: 20px;
+  }
+  
+  .right_input {
+    font-size: .8em;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .input_label {
+    margin-right: 5px;
+  }
+  .get {
+    margin-left: auto;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    margin-top: 20px;
+  }
+  .get_btn {
+    margin-right: 20px;
+    font-size: .6em;
+    background-color: #FF5D00;
+    color: white;
+  }
+  .get_btn:hover {
+    background-color: white;
+    color: #FF5D00
+  }
+
+  .get_btn:focus {
+    border-color: transparent;
+    border: 1px;
+    background-color: white;
+    color: #FF5D00;
+  }
+    /* Chart card*/
+.d_card {
+  padding: 5px;
+  max-height: 800px;
+  height: auto;
+  width: 350px;
+  border-radius: 20px;
+  border-top-color: #FF5D00;
+  border-bottom-color: #FF5D00;
+}
+
+.d_card_title {
+  font-size: .8em;
+  font-weight: 900;
+  font-family: rubik;
+}
+.show_btn {
+  background-color: #FF5D00;
+  color: white;
+  margin-right: 20px;
+}
+
+.show_btn:hover {
+  background-color: white;
+  color: #FF5D00;
+  border-color: 1px solid #FF5D00;
+}
+.show_btn:focus {
+  border: 0px;
+  background-color: white;
+  color: black;
+  border-color: transparent;
+}
+.show_btn > h6 {
+  font-size: .6em;
+  font-weight: 1000;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.prices {
+  margin-right: auto;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.current_price {
+  font-weight: 1000;
+  font-size: .6em;
+}
+.chartBody {
+  width: 300px;
+}
+.chartInnerBody {
+  width: 300px;
+  overflow-x: scroll;
+}
+
+.chartInnerInnerBody {
+  height: 400px;
+}
+/* Chart card end */
+}

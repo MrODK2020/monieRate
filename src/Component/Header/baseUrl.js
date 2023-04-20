@@ -1,0 +1,1 @@
+export const baseUrl = {url: 'https://wandering-toad-pantsuit.cyclic.app'}
